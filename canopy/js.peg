@@ -1,0 +1,19 @@
+grammar JS-BSON  
+ 
+db         <-  [/^db/]
+bson       <-  "bson" 
+code       <-  [/.Code/] 
+objectid   <-  [/.ObjectId/]  
+binary     <-  [/.Binary/] 
+dbref      <-  [/.DBRef/] 
+double     <-  [/.Double/]  
+long       <-  [/.Long/] 
+minkey     <-  [/.MinKey/] 
+maxkey     <-  [/.MaxKey/] 
+date       <-  [/new Date/] 
+regexp     <-  [/new RegExp/] 
+timestamp  <-  [/.Timestamp/] 
+symbol     <-  [/.Symbol/] 
+decimal128 <-  [/.Decimal128/] 
+object     <-  [/{/] 
+array      <-  [/[/] 

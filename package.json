@@ -1,0 +1,19 @@
+{
+  "name": "canopy-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bankai start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irina Shestak",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mongodb-js/bson-compilers": "../../bson-compilers",
+    "bankai": "^9.8.0",
+    "choo": "^6.9.0",
+    "choo-devtools": "^2.3.4",
+    "pegjs": "^0.10.0"
+  }
+}
